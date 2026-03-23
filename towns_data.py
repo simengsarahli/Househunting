@@ -34,6 +34,32 @@ Last curated: 2026-03. Prices and tax rates change frequently.
 TOWNS = [
     # === NEW JERSEY (NJ Transit / PATH) ===
     {
+        "name": "Jersey City (Paulus Hook / PS 16 Zone)",
+        "state": "NJ",
+        "county": "Hudson",
+        "commute_minutes": 15,
+        "transit_line": "PATH (Grove St to WTC/Midtown)",
+        "median_home_price": 685_000,
+        "price_range_low": 450_000,
+        "price_range_high": 1_800_000,
+        "avg_property_tax": 8_000,
+        "tax_rate_pct": 2.34,
+        "elementary_school_rating": 9,
+        "middle_school_rating": 7,
+        "high_school_rating": 7,
+        "avg_school_rating": 7.7,
+        "notable_schools": [
+            "PS 16 Cornelia F. Bradford (9/10 GreatSchools, #2 elementary in NJ)",
+            "McNair Academic High School (9/10)",
+        ],
+        "highlights": [
+            "Shortest commute: 15 min PATH to WTC, 25 min to Midtown",
+            "PS 16 rated 9/10 — ranked #2 elementary in NJ (90% math / 91% reading proficient)",
+            "Many condos have tax abatements (PILOT) — $0-$8K/yr for 10-30 years",
+            "Walkable waterfront neighborhood with restaurants, parks, ferry to Manhattan",
+        ],
+    },
+    {
         "name": "Summit",
         "state": "NJ",
         "county": "Union",

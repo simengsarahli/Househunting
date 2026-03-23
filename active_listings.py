@@ -11,6 +11,24 @@ from tabulate import tabulate
 LISTINGS_DATA = [
     # (Town, State, Active Listings, Median List Price, Days on Market, Search Links)
     {
+        "town": "Jersey City (Paulus Hook / PS 16)",
+        "state": "NJ",
+        "zillow_listings": 4,
+        "redfin_listings": 4,
+        "median_list_price": "$685K-$1.07M",
+        "avg_days_on_market": 98,
+        "sample_listings": [
+            "Clermont Cove (1 Greene St) — 1 BR/1 BA, doorman, pool, gym, PS 16 zone, abatement thru 2036",
+            "Historic brownstone duplex — 3 BR/2 BA, 1,500 sqft + 350 sqft rooftop terrace",
+            "Sugar House loft — 2 BR/2 BA, 1,500+ sqft, barrel-vaulted brick ceilings",
+            "72 York St — new construction (2023), 2 BR, 1,025 sqft + balcony",
+            "180 Washington St — 2 BR/1 BA, heart of Paulus Hook",
+            "Clermont Cove — 2 BR + den, Statue of Liberty views, huge terrace",
+        ],
+        "zillow_url": "https://www.zillow.com/jersey-city-nj/schools/cornelia-f-bradford-no-16-elementary-school-91764/",
+        "redfin_url": "https://www.redfin.com/neighborhood/82438/NJ/Jersey-City/Paulus-Hook",
+    },
+    {
         "town": "Glen Ridge",
         "state": "NJ",
         "zillow_listings": 7,
@@ -448,7 +466,7 @@ LISTINGS_DATA = [
 
 def main():
     print("\n" + "=" * 80)
-    print("  ACTIVE LISTINGS ACROSS ALL 28 TOWNS (March 2026)")
+    print("  ACTIVE LISTINGS ACROSS ALL 29 TOWNS (March 2026)")
     print("=" * 80)
 
     # Summary table
