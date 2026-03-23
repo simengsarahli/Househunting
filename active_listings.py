@@ -304,6 +304,23 @@ LISTINGS_DATA = [
         "redfin_url": "https://www.redfin.com/minorcivildivision/462/NJ/Millburn-Township",
     },
     {
+        "town": "New Providence",
+        "state": "NJ",
+        "zillow_listings": 27,
+        "redfin_listings": 4,
+        "median_list_price": "$682K-$820K",
+        "avg_days_on_market": 45,
+        "sample_listings": [
+            "Charming Colonial — 4 BR/2.5 BA, .4-acre lot, renovation opportunity",
+            "New construction — 6 BR/6 BA, two oversized kitchen islands, high-end appliances",
+            "New construction Colonial — 6 BR/5 BA, walk to downtown/train/schools",
+            "Two-family investment — renovated 2025, $8K-$9K/mo rental income",
+            "Expanded split-level — 4 BR/2.5 BA, quiet dead-end street",
+        ],
+        "zillow_url": "https://www.zillow.com/new-providence-nj/",
+        "redfin_url": "https://www.redfin.com/city/13364/NJ/New-Providence",
+    },
+    {
         "town": "Ridgewood",
         "state": "NJ",
         "zillow_listings": 26,
@@ -431,7 +448,7 @@ LISTINGS_DATA = [
 
 def main():
     print("\n" + "=" * 80)
-    print("  ACTIVE LISTINGS ACROSS ALL 27 TOWNS (March 2026)")
+    print("  ACTIVE LISTINGS ACROSS ALL 28 TOWNS (March 2026)")
     print("=" * 80)
 
     # Summary table
